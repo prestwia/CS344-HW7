@@ -14,4 +14,11 @@ def test_5():
     assert fb.fizzbuzz(35) == "Buzz"
     assert fb.fizzbuzz(50) == "Buzz"
     assert fb.fizzbuzz(95) == "Buzz"
+
+def test_3_5():
+    assert fb.fizzbuzz(15) == "FizzBuzz"
+    assert fb.fizzbuzz(30) == "FizzBuzz"
+    assert fb.fizzbuzz(45) == "FizzBuzz"
+    assert fb.fizzbuzz(60) == "FizzBuzz"
+    assert fb.fizzbuzz(90) == "FizzBuzz"
     
