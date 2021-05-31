@@ -10,10 +10,10 @@ def test_div_by_4():
     assert ly.leapyear(2016) == True
 
 def test_div_by_100():
-    assert ly.leapyear(2000) == False
+    assert ly.leapyear(1800) == False
     assert ly.leapyear(1900) == False
-    assert ly.leapyear(1600) == False
-    assert ly.leapyear(2800) == False
+    assert ly.leapyear(1700) == False
+    assert ly.leapyear(1400) == False
 
 def test_div_by_400():
     assert ly.leapyear(2000) == True
