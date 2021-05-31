@@ -6,5 +6,7 @@ class leapyear:
             isLeap = True
         if year % 100 == 0:
             isLeap = False
+        if year % 400 == 0:
+            isLeap = True
 
         return isLeap
